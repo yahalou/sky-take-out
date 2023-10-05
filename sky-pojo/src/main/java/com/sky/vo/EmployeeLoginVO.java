@@ -9,13 +9,20 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
+
+//Lombok：自动生成getter/setter方法,toString方法
 @Data
+//Lombok：可以使用构造器模式创建对象
 @Builder
+//Lombok：生成一个无参构造器
 @NoArgsConstructor
+//Lombok：生成一个全参构造器
 @AllArgsConstructor
+//Swagger：用于生成接口文档
 @ApiModel(description = "员工登录返回的数据格式")
 public class EmployeeLoginVO implements Serializable {
 
+    //Swagger：用于生成接口文档
     @ApiModelProperty("主键值")
     private Long id;
 

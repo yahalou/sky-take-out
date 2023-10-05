@@ -5,6 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
+//将配置文件中配置的每一个属性的值，映射到这个组件中
 @ConfigurationProperties(prefix = "sky.jwt")
 @Data
 public class JwtProperties {
