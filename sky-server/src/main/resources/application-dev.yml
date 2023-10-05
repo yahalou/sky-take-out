@@ -8,7 +8,7 @@ sky:
     password: 123456
   alioss:
     endpoint: oss-cn-beijing.aliyuncs.com
-    access-key-id: LTAI5tPVjJkfYG7X9j3H7fcF
+    access-key-id: 
     access-key-secret: 
     bucket-name: myimagess
   redis:
