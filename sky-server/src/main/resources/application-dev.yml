@@ -9,7 +9,7 @@ sky:
   alioss:
     endpoint: oss-cn-beijing.aliyuncs.com
     access-key-id: LTAI5tPVjJkfYG7X9j3H7fcF
-    access-key-secret: ZJo9c2b9vK1oeFkUWoKve0Bl4OS8tz
+    access-key-secret: 
     bucket-name: myimagess
   redis:
     host: localhost
